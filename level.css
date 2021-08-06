@@ -1,0 +1,154 @@
+/* Rectangle 2 */
+
+.gameDisplay {
+position: absolute;
+width: 640px;
+height: 512px;
+left: 800px;
+top: 0px;
+z-index: -1;
+
+background: #C4C4C4;
+}
+
+/* Rectangle 3 */
+
+.debugger {
+  position: absolute;
+  width: 640px;
+  height: 512px;
+  left: 800px;
+  top: 512px;
+  z-index: -1;
+  background: #EEEEEE;
+}
+
+/* Rectangle 2 */
+
+.gameDisplay3 {
+position: absolute;
+width: 740px;
+height: 512px;
+left: 700px;
+top: 0px;
+z-index: -2;
+
+background: #C4C4C4;
+}
+
+/* Rectangle 3 */
+
+.debugger3 {
+  position: absolute;
+  width: 740px;
+  height: 512px;
+  left: 700px;
+  top: 512px;
+  z-index: 0;
+  background: #EEEEEE;
+}
+
+.debugger4 {
+  position: absolute;
+  width: 740px;
+  height: 600px;
+  left: 708px;
+  top: 400px;
+  z-index: -1;
+  background: #EEEEEE;
+}
+
+/* Where are the bugs in the code? */
+
+.text {
+position: absolute;
+width: 600px;
+height: 131px;
+left: 820px;
+top: 535px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+}
+
+.text3 {
+position: absolute;
+width: 600px;
+height: 131px;
+left: 780px;
+top: 535px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+}
+
+
+/* Level 1 Code */
+
+.code {
+position: absolute;
+width: 800px;
+height: 1024px;
+top: 0;
+left: 0;
+z-index: -1;
+
+background: url(https://cdn.glitch.com/07786385-3bbe-4cb3-afd6-93daf3a410b0%2Fg.png?v=1628269911919);
+}
+
+/* Level 2 Code */
+
+.code2 {
+position: absolute;
+width: 800px;
+height: 1024px;
+top: 0;
+left: 0;
+z-index: -1;
+
+background: url(https://cdn.glitch.com/07786385-3bbe-4cb3-afd6-93daf3a410b0%2Flvl2_V2.png?v=1628119608804);
+}
+
+/* Level 3 Code */
+
+.code3 {
+position: absolute;
+width: 800px;
+height: 1024px;
+top: 0;
+left: 0;
+z-index: -2;
+
+background: url(https://cdn.glitch.com/07786385-3bbe-4cb3-afd6-93daf3a410b0%2Flvl3.png?v=1628120743171);
+}
+
+.code4 {
+position: absolute;
+width: 800px;
+height: 1024px;
+top: 0;
+left: 0;
+z-index: -2;
+
+background: url(https://cdn.glitch.com/07786385-3bbe-4cb3-afd6-93daf3a410b0%2Flvl4.png?v=1628123571275);
+}
+
+.win-bug {
+  position: fixed;
+  font-size: 64px;
+  padding: 50px;
+  width: 50%;
+  height: 250px;
+  z-index: 1000;
+  background: yellow;
+}

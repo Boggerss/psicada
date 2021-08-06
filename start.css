@@ -1,0 +1,58 @@
+.myClass {
+  /* Rectangle 1 */
+  position: absolute;
+  width: 35.4vw;
+  height: 16.7vh;
+  left: 32.3vw;
+  top: 53vh;
+  width: 510px;
+  height: 171px;
+  left: 465px;
+  top: 544px;
+  text-align: center;
+  padding: 3vh;
+  font-size: 7vh;
+  text-decoration: none;
+  background: #86A3C3;
+  border: 4px solid #B6CEC7;
+  box-sizing: border-box;
+
+
+}
+
+.insectorySquare{
+
+/* Rectangle 1 */
+position: absolute;
+width: 996px;
+height: 391px;
+left: 25%;
+top: 35%;
+z-index: 1;
+
+
+/* Iris/60 */
+background: #A5A6F6;
+border: 4px solid #B6CEC7;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+
+}
+
+.insectoryEllipse{
+/* Ellipse 1 */
+position: absolute;
+width: 160px;
+height: 160px;
+left: 221px;
+top: 73px;
+
+background: #D8E0BB;
+border: 4px solid #B6CEC7;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
