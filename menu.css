@@ -1,0 +1,75 @@
+/* menu */
+
+.level-1{
+  position: absolute;
+  width: 475px;
+  height: 199px;
+  left: 190px;
+  top: 308px;
+  text-align: center;
+  font-size: 64px;
+  color: black;
+  padding: 52px;
+
+  background: #D8E0BB;
+  border-radius: 30px;
+}
+
+/* menu */
+.level-2{
+  /* Rectangle 5 */
+
+  position: absolute;
+  width: 475px;
+  height: 199px;
+  left: 775px;
+  top: 308px;
+  
+  text-align: center;
+  font-size: 64px;
+  color: black;
+  padding: 52px;
+
+  background: #86A3C3;
+  border-radius: 30px;
+
+}
+
+/* menu */
+.level-3{
+  position: absolute;
+  width: 475px;
+  height: 199px;
+  left: 190px;
+  top: 611px;
+  text-align: center;
+  font-size: 64px;
+  color: black;
+  padding: 52px;
+
+  
+  /* Rectangle 6 */
+
+  background: rgba(219, 50, 50, 0.25);
+  border-radius: 30px;
+
+}
+
+
+/* menu */
+.level-4{
+  position: absolute;
+  width: 475px;
+  height: 199px;
+  left: 775px;
+  top: 611px;
+
+  background: #F3D482;
+  background-blend-mode: darken;
+  border-radius: 30px;
+  
+  text-align: center;
+  font-size: 64px;
+  color: black;
+  padding: 52px;
+}
