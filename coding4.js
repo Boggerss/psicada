@@ -299,14 +299,14 @@ function submitChallenge() {
   }
 }
 
-function challengeCompleted1() {
+function challengeCompleted() {
   let a = createA("./insectory.html", "You caught the ladybug!");
   setCookie("bug8", true);
   a.position(300, 400);
   a.style("font-size", "32px");
   a.style("background", "yellow");
   console.log("game over");
-  looping = false;
+  noLoop();
 }
 
 function setCookie(cname, cvalue) {
